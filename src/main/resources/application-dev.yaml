@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: debug
+user:
+  azure:
+    vm:
+      scaling:
+        enable: false
+    appservice:
+      plan:
+        rg: testplan
+        name: testplan
+      service:
+        rg: testservice
+        name: testservice
+server:
+  port: 8000
