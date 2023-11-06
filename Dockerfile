@@ -5,7 +5,7 @@ MAINTAINER Tom "swhors@naver.com"
 ENV API_HOME $HOME/
 
 RUN mkdir -p $API_HOME
-ADD ./target/geo-info-updater-0.0.1.jar $API_HOME
+ADD ./target/AzureVMManualScaleOutPlanner-0.0.1.jar $API_HOME
 
 WORKDIR $API_HOME
 
