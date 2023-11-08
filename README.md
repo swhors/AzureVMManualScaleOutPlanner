@@ -16,7 +16,7 @@ mvn compile
 mvn -B package --file pom.xml -DskipTests
 </code>
 
-<p>** ***주의*** : azure-liburary를 사용할 경우에 Test를 건너 뛰는 것이 좋다.</p>
+<p>***주의 : azure-liburary를 사용할 경우에 Test를 건너 뛰는 것이 좋다.</p>
 
 # Run
 
