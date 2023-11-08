@@ -8,8 +8,9 @@ mvn compile
 <br>
 # Build Package
 ```
-mvn package
+mvn -B package --file pom.xml -DskipTests
 ```
+  ** azure-liburary를 사용할 경우에 Test를 건너 뛰는 것이 좋다.
 <br>
 # Run
 ```
