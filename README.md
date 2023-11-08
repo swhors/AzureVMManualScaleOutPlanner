@@ -14,7 +14,7 @@ mvn -B package --file pom.xml -DskipTests
 
 # Run
 <code>
-java -jar target/AzureVMManualScaleOutPlanner-[version]-SNAPSHOT.jar --spring.profiles.active=[Active Mode, dev or prod]
+AZURE_CLIENT_ID=[CLIENT_ID];AZURE_TENANT_ID=[TENANT_ID];AZURE_CLIENT_SECRET=[CLIENT_SECRET];AZURE_SUBSCRIPTION_ID=[SUBSCRIPTION_ID} java -jar  --spring.profiles.active=[Active Mode, dev or prod] target/AzureVMManualScaleOutPlanner-[version]-SNAPSHOT.jar
 </code>
 
 # Dockerizing
