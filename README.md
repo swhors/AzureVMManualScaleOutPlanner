@@ -13,7 +13,7 @@ mvn package
 <br>
 # Run
 ```
-java -jar target/AzureVMManualScaleOutPlanner-[version].jar --spring.profiles.active=[Active Mode, dev or prod]
+java -jar target/AzureVMManualScaleOutPlanner-[version]-SNAPSHOT.jar --spring.profiles.active=[Active Mode, dev or prod]
 ```
 <br>
 # Dockerizing
